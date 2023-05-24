@@ -34,26 +34,81 @@ GET /api/jokes?subtype=One-liner
 
 The API responds with a JSON object containing the joke details, including the ID, joke text, type, and subtype.
 
-## Getting Started
+# Getting Started
 
 To run the Italian Jokes API locally, follow these steps:
 
 1. Clone the repository:
 
-git clone https://github.com/your-username/italian-jokes-api.git
-
+    ```
+    git clone https://github.com/your-username/italian-jokes-api.git
+    ```
 
 2. Install the required dependencies:
 
-npm install
-
+    ```
+    npm install
+    ```
 
 3. Start the server:
 
-npm start
+    ```
+    npm start
+    ```
+
+The API will be available at http://localhost:3000/api/jokes.
 
 
-4. The API will be available at `http://localhost:3000/api/jokes`.
+# Creating the jokes.json File
+
+To access the collection of Italian jokes, you need to create the jokes.json file. Follow these additional instructions:
+
+1. Navigate to the root folder of the project.
+2. Create a new file named jokes.json.
+3. Open the jokes.json file in a text editor.
+4. Copy and paste the following jokes in the specified format:
+
+    ```json
+    [
+        {
+            "id": 1,
+            "joke": "Why did the Mafia cross the road? Forget about it.",
+            "type": "Italian",
+            "subtype": "One-liner"
+        },
+        {
+            "id": 2,
+            "joke": "How does every Italian joke start? By looking over your shoulder.",
+            "type": "Italian",
+            "subtype": "Observational"
+        },
+        // Add more jokes following the same format...
+    ]
+    ```
+
+5. Save the jokes.json file.
+
+
+# Jokes Format
+
+Each joke in the jokes.json file should be in the following format:
+
+```json
+{
+    "id": [ID_NUMBER],
+    "joke": "[JOKE_TEXT]",
+    "type": "[JOKE_TYPE]",
+    "subtype": "[JOKE_SUBTYPE]"
+}
+
+- [ID_NUMBER] represents the unique identifier for the joke (e.g., 1, 2, 3, ...).
+- [JOKE_TEXT] is the actual joke text.
+- [JOKE_TYPE] represents the type of joke (e.g., Italian, English, Puns, etc.).
+- [JOKE_SUBTYPE] indicates the subtype of the joke (e.g., All, One-liner, Observational, Stereotype, Wordplay, Long).
+
+Feel free to add more jokes following the same format. Make sure to separate each joke with a comma (,) except for the last one.
+
+That's it! You have successfully set up and created the jokes.json file. You can now run the Italian Jokes API locally and access the jokes through the provided endpoint.
 
 ## Contributing
 
@@ -65,5 +120,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Credits
 
-Built by [Daniel Bliss](https://github.com/d-bliss/italian-jokes-api.
-
+Built by [Daniel Bliss](https://github.com/d-bliss/italian-jokes-api).
