@@ -1,0 +1,137 @@
+body {
+    background-color: #3f6c98;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    /* Adjust the margin value as needed */
+    padding: 40px 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #555555;
+    margin-bottom: 10px;
+}
+
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+.fetch-button {
+    background-color: #4a86e8;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.joke-container {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+}
+
+.joke-container h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #555555;
+    margin-bottom: 10px;
+}
+
+.joke-container p {
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 0;
+}
+
+.documentation-container {
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 800px;
+    /* Adjust the max-width value as needed */
+}
+
+.documentation-heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.documentation-subheading {
+    font-size: 20px;
+    font-weight: bold;
+    color: #555555;
+    margin-bottom: 10px;
+}
+
+.documentation-paragraph {
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.documentation-code {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.documentation-list {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.documentation-list-item {
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+    color: #888888;
+}
+
+footer a {
+    color: #555555;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

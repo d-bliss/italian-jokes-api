@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Italian Jokes API</title>
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">Welcome to the Italian Jokes API</h1>
+        <div class="documentation-section">
+    <h3 class="documentation-subheading">Overview</h3>
+    <p class="documentation-paragraph">Why did the Italians become the last people we can make jokes about? Because they've mastered the art of laughter and embraced humor with open arms. The Italian Jokes API allows you to retrieve jokes about Italians, showcasing their vibrant culture and lighthearted spirit. It provides various endpoints to fetch jokes based on different subtypes.</p>
+</div>
+        <div class="form-group">
+            <label for="subtypeSelect">Select a joke subtype:</label>
+            <select id="subtypeSelect"
+                class="border border-gray-300 rounded-md px-3 py-2 focus:outline-none">
+                <option value="">All</option>
+                <option value="One-liner">One-liner</option>
+                <option value="Observational">Observational</option>
+                <option value="Stereotype">Stereotype</option>
+                <option value="Wordplay">Wordplay</option>
+                <option value="Long">Long</option>
+            </select>
+        </div>
+
+        <button id="fetchButton" class="fetch-button">Get Joke</button>
+
+        <div id="jokeContainer" class="joke-container"></div>
+    </div>
+    <div class="documentation-container">
+        <h2 class="documentation-heading">API Documentation</h2>
+
+        <div class="documentation-section">
+            <h3 class="documentation-subheading">Overview</h3>
+            <p class="documentation-paragraph">Why did Italians become the last
+                people we can make jokes about? Because they've mastered the art of
+                laughter and embraced humor with open arms. The Italian Jokes API allows
+                you to retrieve jokes about Italians, showcasing their vibrant culture
+                and lighthearted spirit. It provides various endpoints to fetch jokes
+                based on different subtypes.</p>
+        </div>
+
+        <div class="documentation-section">
+            <h3 class="documentation-subheading">API Usage</h3>
+            <p class="documentation-paragraph">To retrieve a joke, you can make
+                a GET request to the following endpoint:</p>
+            <pre class="documentation-code"><code>GET /api/jokes</code></pre>
+        </div>
+
+        <div class="documentation-section">
+            <h3 class="documentation-subheading">Query Parameters</h3>
+            <p class="documentation-paragraph">The API supports the following
+                query parameters:</p>
+            <ul class="documentation-list">
+                <li class="documentation-list-item">
+                    <strong>subtype</strong> (optional): Specifies the subtype
+                    of jokes to fetch. Available subtypes
+                    include: All, One-liner, Observational, Stereotype,
+                    Wordplay, Long. Example: <code>?subtype=One-liner</code>
+                </li>
+            </ul>
+        </div>
+
+        <div class="documentation-section">
+            <h3 class="documentation-subheading">Response Format</h3>
+            <p class="documentation-paragraph">The API responds with a JSON
+                object containing the following properties:</p>
+            <pre class="documentation-code"><code>{
+  "id": 1,
+  "joke": "Why did the Mafia cross the road? Forget about it.",
+  "type": "Italian",
+  "subtype": "One-liner"
+}</code></pre>
+        </div>
+
+        <div class="documentation-section">
+            <h3 class="documentation-subheading">Examples</h3>
+            <p class="documentation-paragraph">Here are some examples of how to
+                interact with the API:</p>
+            <pre class="documentation-code"><code>// Fetch a random joke
+GET /api/jokes
+
+// Fetch a joke of a specific subtype
+GET /api/jokes?subtype=Observational</code></pre>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+    <footer>
+        <p>
+            &copy; <span id="currentYear"></span> Daniel Bliss. All rights reserved.
+            Built by <a href="https://github.com/d-bliss/italian-jokes-api" target="_blank">Bliss</a>
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
