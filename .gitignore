@@ -1,5 +1,5 @@
 .vercel
 italian-jokes-api/
-.DS_Store files
+.DS_Store
 jokes.json
 # npx vercel --prod to push to vercel
