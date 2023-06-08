@@ -1,6 +1,6 @@
 # Italian Jokes API
 
-Welcome to the Italian Jokes API! This API allows you to retrieve jokes about Italians. You can try out the deployed application [here](https://italian-jokes.vercel.app/) to interact with the API and fetch jokes based on different subtypes.
+Welcome to the Italian Jokes API! This API allows you to retrieve jokes about Italians. You can try out the deployed application at https://italian-jokes.vercel.app/. Feel free to interact with the API, and fetch jokes based on different subtypes.
 
 ## Table of Contents
 - [Overview](#overview)
