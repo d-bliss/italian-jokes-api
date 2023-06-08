@@ -1,5 +1,9 @@
 .vercel
 italian-jokes-api/
 .DS_Store
+# MAKE SURE YOU COMMENT OUT THE JOKES.JSON FILE WHEN PUSHING TO VERCEL
 jokes.json
 # npx vercel --prod to push to vercel
+# MAKE SURE YOU COMMENT OUT THE JOKES.JSON FILE WHEN PUSHING TO VERCEL
+
+
