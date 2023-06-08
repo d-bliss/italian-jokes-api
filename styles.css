@@ -1,5 +1,28 @@
 body {
-    background-color: #3f6c98;
+    background: linear-gradient(to right, #008C45, #008C45 33%, #F4F5F0 33%, #F4F5F0 66%, #BE2232 66%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.fetch-button {
+    position: relative;
+    background: linear-gradient(to right, #008C45, #FFFFFF, #BE2232);
+    color: #333333;
+    border: 2px solid #008C45;
+    font-size: 21px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-size: 300% 100%;
+    transition: all 0.4s ease-in-out;
+    text-shadow: -0.5px -0.5px 0 #ffffff, 0.5px -0.5px 0 #ffffff, -0.5px 0.5px 0 #ffffff, 0.5px 0.5px 0 #ffffff;
+}
+
+.fetch-button:hover {
+    background-position: 100% 0;
+    border-color: #BE2232;
 }
 
 .container {
@@ -36,17 +59,6 @@ body {
     padding: 10px;
     border: 1px solid #cccccc;
     border-radius: 4px;
-}
-
-.fetch-button {
-    background-color: #4a86e8;
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: bold;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
 }
 
 .joke-container {
@@ -114,6 +126,11 @@ body {
     font-size: 16px;
     color: #333333;
     margin-bottom: 10px;
+}
+
+.documentation-code {
+    margin-bottom: 20px;
+    /* Add space below the code blocks */
 }
 
 footer {
