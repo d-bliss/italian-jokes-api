@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     function displayJoke(joke) {
         jokeContainer.innerHTML = `
-            <h2>${joke.type} Joke</h2>
+            <h2>${joke.subtype}</h2>
             <p>${joke.joke}</p>
         `;
     }
