@@ -7,9 +7,12 @@ Welcome to the Italian Jokes API! This API allows you to retrieve jokes about It
 - [Overview](#overview)
 - [API Usage](#api-usage)
 - [Getting Started](#getting-started)
+  - [Creating the jokes.json File](#creating-the-jokesjson-file)
+  - [Jokes Format](#jokes-format)
 - [Contributing](#contributing)
 - [License](#license)
 - [Credits](#credits)
+
 
 ## Overview
 Welcome to the Italian Jokes API, a simple API that allows you to retrieve jokes about Italians. This API provides various endpoints to fetch jokes based on different subtypes, such as one-liners, observational, stereotypes, wordplay, and long jokes.
@@ -35,7 +38,7 @@ GET /api/jokes?subtype=One-liner
 
 The API responds with a JSON object containing the joke details, including the ID, joke text, type, and subtype.
 
-# Getting Started
+## Getting Started
 
 To run the Italian Jokes API locally, follow these steps:
 
@@ -60,7 +63,7 @@ To run the Italian Jokes API locally, follow these steps:
 The API will be available at http://localhost:3000/api/jokes.
 
 
-# Creating the jokes.json File
+### Creating the jokes.json File
 
 To access the collection of Italian jokes, you need to create the jokes.json file. Follow these additional instructions:
 
