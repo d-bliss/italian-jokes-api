@@ -31,7 +31,7 @@ body {
     /* Adjust the margin value as needed */
     padding: 40px 20px;
     background-color: #ffffff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px #333333;
     border-radius: 8px;
 }
 
@@ -163,9 +163,9 @@ body {
     content: "";
     width: 22px;
     /* decrease this to be slightly less than the height of the switch */
-    height: 25px;
+    height: 22px;
     /* should be the same as the width to keep the slider circular */
-    background-color: white;
+    background-color: rgb(94, 89, 89);
     border-radius: 50%;
     position: absolute;
     top: 1px;
@@ -175,13 +175,17 @@ body {
 }
 
 .tts-toggle-input:checked:before {
-    left: 31px;
+    left: 27px;
     /* adjust this to move the slider to the correct position when checked */
 }
 
 .tts-toggle-label {
     margin-left: 10px;
     font-size: 16px;
+    font-weight: 500;
+    /* decrease this to make the text less bold */
+    color: #444;
+    /* change this to adjust the color of the text */
 }
 
 /* end of toggle css */
