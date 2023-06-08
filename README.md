@@ -104,6 +104,7 @@ Each joke in the jokes.json file should be in the following format:
     "type": "[JOKE_TYPE]",
     "subtype": "[JOKE_SUBTYPE]"
 }
+```
 
 - [ID_NUMBER] represents the unique identifier for the joke (e.g., 1, 2, 3, ...).
 - [JOKE_TEXT] is the actual joke text.
