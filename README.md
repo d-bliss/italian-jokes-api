@@ -124,5 +124,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Credits
 
-Built by <a href="https://github.com/d-bliss/italian-jokes-api" target="_blank">Daniel Bliss</a>.
+Built by [Daniel Bliss](https://github.com/d-bliss/italian-jokes-api).
+
 
