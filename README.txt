@@ -93,7 +93,7 @@ To access the collection of Italian jokes, you need to create the jokes.json fil
 5. Save the jokes.json file.
 
 
-# Jokes Format
+## Jokes Format
 
 Each joke in the jokes.json file should be in the following format:
 
