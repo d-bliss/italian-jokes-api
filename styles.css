@@ -133,6 +133,59 @@ body {
     /* Add space below the code blocks */
 }
 
+/* code for the text to speech toggle */
+.toggle-switch {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.tts-toggle-input {
+    width: 50px;
+    /* increase this to make the switch wider */
+    height: 25px;
+    /* increase this to make the switch taller (fatter) */
+    appearance: none;
+    background-color: #ccc;
+    border-radius: 30px;
+    /* this should be half of the height to maintain the rounded ends */
+    position: relative;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.tts-toggle-input:checked {
+    background-color: #008C45;
+}
+
+.tts-toggle-input:before {
+    content: "";
+    width: 22px;
+    /* decrease this to be slightly less than the height of the switch */
+    height: 25px;
+    /* should be the same as the width to keep the slider circular */
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 1px;
+    /* adjust this to center the slider */
+    left: 1px;
+    transition: left 0.2s;
+}
+
+.tts-toggle-input:checked:before {
+    left: 31px;
+    /* adjust this to move the slider to the correct position when checked */
+}
+
+.tts-toggle-label {
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+/* end of toggle css */
+
 footer {
     background-color: #f2f2f2;
     padding: 20px;
