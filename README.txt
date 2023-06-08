@@ -8,7 +8,7 @@ Welcome to the Italian Jokes API! This API allows you to retrieve jokes about It
 - [API Usage](#api-usage)
 - [Getting Started](#getting-started)
   - [Creating the jokes.json File](#creating-the-jokesjson-file)
-  - [Jokes Format](#jokes-format)
+- [Jokes Format](#jokes-format)
 - [Contributing](#contributing)
 - [License](#license)
 - [Credits](#credits)
@@ -124,4 +124,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Credits
 
-Built by [Daniel Bliss](https://github.com/d-bliss/italian-jokes-api).
+Built by <a href="https://github.com/d-bliss/italian-jokes-api" target="_blank">Daniel Bliss</a>.
+
