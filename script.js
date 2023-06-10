@@ -29,34 +29,48 @@ document.addEventListener("DOMContentLoaded", () => {
             <h2>${joke.subtype} Joke</h2>
             <p>${joke.joke}</p>
         `;
-        speakJoke(joke); // call the speakJoke function here
+        speakJoke(joke.joke); // call the speakJoke function here
     }
 
-    function speakJoke(joke) {
-        if (!ttsToggle.checked) {
+    function speakJoke(jokeText) {
+        if (!ttsToggle.checked || !("speechSynthesis" in window)) {
             return;
         }
-        const utterance = new SpeechSynthesisUtterance(joke.joke);
-        utterance.rate = 0.9; // Adjust the speech rate
 
-        const voices = window.speechSynthesis.getVoices();
-        const selectedVoice = voices.find(
-            (voice) => voice.name === "Google UK English Female"
-        );
+        var synthesis = window.speechSynthesis;
+        var voice;
 
-        if (selectedVoice) {
-            utterance.voice = selectedVoice; // Use the selected voice
-        }
-        // If no matching voice is found, the default voice will be used
+        let voicesLoaded = new Promise((resolve) => {
+            let id;
 
-        window.speechSynthesis.speak(utterance);
+            id = setInterval(() => {
+                if (synthesis.getVoices().length !== 0) {
+                    resolve();
+                    clearInterval(id);
+                }
+            }, 10);
+        });
+
+        voicesLoaded.then(() => {
+            // Get the first `en` language voice in the list
+            voice = synthesis.getVoices().filter(function (voice) {
+                return voice.lang === "en";
+            })[0];
+
+            // Create an utterance object
+            var utterance = new SpeechSynthesisUtterance(jokeText);
+
+            // Set utterance properties
+            utterance.voice = voice;
+            utterance.pitch = 1;
+            utterance.rate = 1;
+            utterance.volume = 1;
+
+            // Speak the utterance
+            synthesis.speak(utterance);
+        });
     }
 
-    function displayError(message) {
-        jokeContainer.innerHTML = `
-            <p class="error">${message}</p>
-        `;
-    }
 
     // Update the current year in the footer
     const currentYearElement = document.getElementById("currentYear");
