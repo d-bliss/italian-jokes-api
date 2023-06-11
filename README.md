@@ -86,7 +86,7 @@ To access the collection of Italian jokes, you need to create the jokes.json fil
             "type": "Italian",
             "subtype": "Observational"
         },
-        /* Add more jokes following the same format... */
+        // Add more jokes following the same format...
     ]
     ```
 
