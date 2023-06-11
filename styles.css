@@ -13,7 +13,7 @@ body {
     font-size: 21px;
     font-weight: bold;
     padding: 10px 20px;
-    border-radius: 4px;
+    border-radius: 10px;
     cursor: pointer;
     background-size: 300% 100%;
     transition: all 0.4s ease-in-out;
@@ -133,7 +133,38 @@ body {
     /* Add space below the code blocks */
 }
 
+
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+    color: #888888;
+}
+
+footer a {
+    color: #555555;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.custom-wider-container {
+    max-width: 800px;
+    /* Adjust the width as desired */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 /* code for the text to speech toggle */
+
 .toggle-switch {
     display: flex;
     align-items: center;
@@ -187,31 +218,19 @@ body {
 
 .tts-toggle-label {
     margin-left: 10px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
     /* decrease this to make the text less bold */
-    color: #444;
+    color: #008C45;
     /* change this to adjust the color of the text */
+    display: flex;
+    align-items: center;
+}
+
+.tts-toggle-label::before {
+    content: "🔊";
+    margin-right: 5px;
+    font-size: 30px;
 }
 
 /* end of toggle css */
-
-footer {
-    background-color: #f2f2f2;
-    padding: 20px;
-    text-align: center;
-}
-
-footer p {
-    font-size: 14px;
-    color: #888888;
-}
-
-footer a {
-    color: #555555;
-    text-decoration: none;
-}
-
-footer a:hover {
-    text-decoration: underline;
-}

@@ -86,7 +86,9 @@ To access the collection of Italian jokes, you need to create the jokes.json fil
             "type": "Italian",
             "subtype": "Observational"
         },
+
         // Add more jokes following the same format...
+        
     ]
     ```
 
@@ -99,7 +101,7 @@ Each joke in the jokes.json file should be in the following format:
 
 ```json
 {
-    "id": [ID_NUMBER],
+    "id": "[ID_NUMBER]",
     "joke": "[JOKE_TEXT]",
     "type": "[JOKE_TYPE]",
     "subtype": "[JOKE_SUBTYPE]"
