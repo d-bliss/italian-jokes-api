@@ -5,7 +5,7 @@ body {
     min-height: 100vh;
 }
 
-.fetch-button {
+/* .fetch-button {
     position: relative;
     background: linear-gradient(to right, #008C45, #FFFFFF, #BE2232);
     color: #333333;
@@ -23,7 +23,59 @@ body {
 .fetch-button:hover {
     background-position: 100% 0;
     border-color: #BE2232;
+} */
+
+body {
+    background: linear-gradient(to right, #008C45, #FFFFFF, #BE2232);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    transition: background 0.6s;
 }
+
+.fetch-button {
+    position: relative;
+    background: linear-gradient(to right, #008C45, #FFFFFF);
+    color: #333333;
+    border: 2px solid #008C45;
+    font-size: 21px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-size: 200% 100%;
+    text-shadow: -0.5px -0.5px 0 #ffffff, 0.5px -0.5px 0 #ffffff, -0.5px 0.5px 0 #ffffff, 0.5px 0.5px 0 #ffffff;
+    transition: background-position 0.6s, border-color 0.6s, color 0.6s;
+    transition: transform 0.3s;
+}
+
+.fetch-button:hover {
+    background: linear-gradient(to right, #008C45, #FFFFFF, #BE2232);
+    background-position: 100% 0;
+    border-color: #008C45;
+    color: #333333;
+    transform: scale(1.05);
+}
+
+.fetch-button:active {
+    background:linear-gradient(to right, #008C45, #FFFFFF);
+    background-position: 100% 0;
+    border-color: #008C45;
+    color: #333333;
+    transition: background 0.3s, border-color 0.3s, color 0.3s, transform 0.3s;
+    transform: scale(1.2);
+}
+
+
+/* Handle touchstart event for touch devices */
+@media (hover: none) {
+    .fetch-button {
+        background: linear-gradient(to right, #008C45, #FFFFFF, #BE2232);
+        transition: none;
+        border: 2px solid #008C45 !important;
+    }
+}
+
 
 .container {
     max-width: 600px;
