@@ -71,7 +71,6 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-
     // Update the current year in the footer
     const currentYearElement = document.getElementById("currentYear");
     if (currentYearElement) {

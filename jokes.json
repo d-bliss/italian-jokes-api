@@ -6,8 +6,14 @@
         "subtype": "One-liner"
     },
     {
+        "id": 2,
+        "joke": "How does every Italian joke start? By looking over your shoulder.",
+        "type": "Italian",
+        "subtype": "Observational"
+    },
+    {
         "id": 3,
-        "joke": "What\u2019s the difference between a smart Italian and a unicorn? Nothing, they\u2019re both fictional characters.",
+        "joke": "What’s the difference between a smart Italian and a unicorn? Nothing, they’re both fictional characters.",
         "type": "Italian",
         "subtype": "Stereotype"
     },
@@ -18,22 +24,10 @@
         "subtype": "Observational"
     },
     {
-        "id": 4,
-        "joke": "How to know an Italian in the 21st century? He just tried to enter his password on the microwave.",
+        "id": 5,
+        "joke": "If Tarzan and Jane were Italian, what would a Cheetah be? The least hairy of the three.",
         "type": "Italian",
-        "subtype": "Observational"
-    },
-    {
-        "id": 4,
-        "joke": "How to know an Italian in the 21st century? He just tried to enter his password on the microwave.",
-        "type": "Italian",
-        "subtype": "Observational"
-    },
-    {
-        "id": 6,
-        "joke": "What do you call four Italians in quicksand? Quattro Sinko!",
-        "type": "Italian",
-        "subtype": "Wordplay"
+        "subtype": "Stereotype"
     },
     {
         "id": 6,
@@ -48,40 +42,16 @@
         "subtype": "Observational"
     },
     {
-        "id": 7,
-        "joke": "In Italy, a poll was taken to determine why men get up at night. Here are the results: 10% to raid the fridge, 15% to have a pee, 75% to go home.",
-        "type": "Italian",
-        "subtype": "Observational"
-    },
-    {
-        "id": 7,
-        "joke": "In Italy, a poll was taken to determine why men get up at night. Here are the results: 10% to raid the fridge, 15% to have a pee, 75% to go home.",
-        "type": "Italian",
-        "subtype": "Observational"
-    },
-    {
-        "id": 7,
-        "joke": "In Italy, a poll was taken to determine why men get up at night. Here are the results: 10% to raid the fridge, 15% to have a pee, 75% to go home.",
-        "type": "Italian",
-        "subtype": "Observational"
-    },
-    {
         "id": 8,
-        "joke": "How can you identify the Italian at the Cockfight? He\u2019s the one who bets on the duck.",
+        "joke": "How can you identify the Italian at the Cockfight? He’s the one who bets on the duck.",
         "type": "Italian",
         "subtype": "Stereotype"
     },
     {
-        "id": 8,
-        "joke": "How can you identify the Italian at the Cockfight? He\u2019s the one who bets on the duck.",
+        "id": 9,
+        "joke": "Luigi and Paulo were fishing in the Mediterranean sea one sunny day when a World War II mine came floating along. On seeing this round, spiky object coming nearer and nearer, Luigi shouts at his friend 'Hey Paulo, it’s a mine, it’s a mine!' Paulo replies, 'O.K. Luigi, you can-a have it.'",
         "type": "Italian",
-        "subtype": "Stereotype"
-    },
-    {
-        "id": 8,
-        "joke": "How can you identify the Italian at the Cockfight? He\u2019s the one who bets on the duck.",
-        "type": "Italian",
-        "subtype": "Stereotype"
+        "subtype": "Long"
     },
     {
         "id": 10,
@@ -96,48 +66,6 @@
         "subtype": "One-liner"
     },
     {
-        "id": 11,
-        "joke": "Why are Italians usually reserved around new neighbors? They're not fond of any witnesses.",
-        "type": "Italian",
-        "subtype": "One-liner"
-    },
-    {
-        "id": 11,
-        "joke": "Why are Italians usually reserved around new neighbors? They're not fond of any witnesses.",
-        "type": "Italian",
-        "subtype": "One-liner"
-    },
-    {
-        "id": 12,
-        "joke": "Why wasn't the biblical event in Italy? They couldn't find three philosophers and a newlywed.",
-        "type": "Italian",
-        "subtype": "One-liner"
-    },
-    {
-        "id": 12,
-        "joke": "Why wasn't the biblical event in Italy? They couldn't find three philosophers and a newlywed.",
-        "type": "Italian",
-        "subtype": "One-liner"
-    },
-    {
-        "id": 12,
-        "joke": "Why wasn't the biblical event in Italy? They couldn't find three philosophers and a newlywed.",
-        "type": "Italian",
-        "subtype": "One-liner"
-    },
-    {
-        "id": 12,
-        "joke": "Why wasn't the biblical event in Italy? They couldn't find three philosophers and a newlywed.",
-        "type": "Italian",
-        "subtype": "One-liner"
-    },
-    {
-        "id": 12,
-        "joke": "Why wasn't the biblical event in Italy? They couldn't find three philosophers and a newlywed.",
-        "type": "Italian",
-        "subtype": "One-liner"
-    },
-    {
         "id": 12,
         "joke": "Why wasn't the biblical event in Italy? They couldn't find three philosophers and a newlywed.",
         "type": "Italian",
@@ -148,42 +76,6 @@
         "joke": "What do you call a deceptive Italian dish? An impasta.",
         "type": "Italian",
         "subtype": "Wordplay"
-    },
-    {
-        "id": 13,
-        "joke": "What do you call a deceptive Italian dish? An impasta.",
-        "type": "Italian",
-        "subtype": "Wordplay"
-    },
-    {
-        "id": 13,
-        "joke": "What do you call a deceptive Italian dish? An impasta.",
-        "type": "Italian",
-        "subtype": "Wordplay"
-    },
-    {
-        "id": 14,
-        "joke": "A French spy, a German spy, and an Italian spy get caught. The Italian spy says, 'I wanted to go unnoticed, but my expressive hands gave me away!'",
-        "type": "Italian",
-        "subtype": "Long"
-    },
-    {
-        "id": 14,
-        "joke": "A French spy, a German spy, and an Italian spy get caught. The Italian spy says, 'I wanted to go unnoticed, but my expressive hands gave me away!'",
-        "type": "Italian",
-        "subtype": "Long"
-    },
-    {
-        "id": 14,
-        "joke": "A French spy, a German spy, and an Italian spy get caught. The Italian spy says, 'I wanted to go unnoticed, but my expressive hands gave me away!'",
-        "type": "Italian",
-        "subtype": "Long"
-    },
-    {
-        "id": 14,
-        "joke": "A French spy, a German spy, and an Italian spy get caught. The Italian spy says, 'I wanted to go unnoticed, but my expressive hands gave me away!'",
-        "type": "Italian",
-        "subtype": "Long"
     },
     {
         "id": 14,
@@ -198,40 +90,10 @@
         "subtype": "Wordplay"
     },
     {
-        "id": 15,
-        "joke": "What do you call an Italian who sells companionship? A pastatute.",
-        "type": "Italian",
-        "subtype": "Wordplay"
-    },
-    {
         "id": 16,
         "joke": "What do you call an Italian with a rubber toe? Roberto.",
         "type": "Italian",
         "subtype": "Wordplay"
-    },
-    {
-        "id": 16,
-        "joke": "What do you call an Italian with a rubber toe? Roberto.",
-        "type": "Italian",
-        "subtype": "Wordplay"
-    },
-    {
-        "id": 16,
-        "joke": "What do you call an Italian with a rubber toe? Roberto.",
-        "type": "Italian",
-        "subtype": "Wordplay"
-    },
-    {
-        "id": 16,
-        "joke": "What do you call an Italian with a rubber toe? Roberto.",
-        "type": "Italian",
-        "subtype": "Wordplay"
-    },
-    {
-        "id": 17,
-        "joke": "Two Italians board a bus. They chat, 'First Emma arrives. Then I arrive. Then we both laughed heartily. I made another witty remark. We laughed even more. I told another joke and we laughed twice as hard. Then I told one last joke.'",
-        "type": "Italian",
-        "subtype": "Long"
     },
     {
         "id": 17,
@@ -252,46 +114,10 @@
         "subtype": "Wordplay"
     },
     {
-        "id": 19,
-        "joke": "What does FIAT stand for? 'Frenzied Italian Navigating Traffic.'",
-        "type": "Italian",
-        "subtype": "Wordplay"
-    },
-    {
-        "id": 19,
-        "joke": "What does FIAT stand for? 'Frenzied Italian Navigating Traffic.'",
-        "type": "Italian",
-        "subtype": "Wordplay"
-    },
-    {
         "id": 20,
         "joke": "What's the difference between an Italian grandmother and a heavyweight champ? Fifty pounds and a black dress.",
         "type": "Italian",
         "subtype": "One-liner"
-    },
-    {
-        "id": 20,
-        "joke": "What's the difference between an Italian grandmother and a heavyweight champ? Fifty pounds and a black dress.",
-        "type": "Italian",
-        "subtype": "One-liner"
-    },
-    {
-        "id": 20,
-        "joke": "What's the difference between an Italian grandmother and a heavyweight champ? Fifty pounds and a black dress.",
-        "type": "Italian",
-        "subtype": "One-liner"
-    },
-    {
-        "id": 21,
-        "joke": "As is tradition in Italian families, Maria spends her wedding night in her family home. She was heard exclaiming, 'His shoe size is enormous!'",
-        "type": "Italian",
-        "subtype": "Long"
-    },
-    {
-        "id": 21,
-        "joke": "As is tradition in Italian families, Maria spends her wedding night in her family home. She was heard exclaiming, 'His shoe size is enormous!'",
-        "type": "Italian",
-        "subtype": "Long"
     },
     {
         "id": 21,
@@ -304,18 +130,6 @@
         "joke": "Two old Italian friends walk on a chilly winter's day. One says, 'Oh, sorry, yes. I've just left my gloves at home.'",
         "type": "Italian",
         "subtype": "Long"
-    },
-    {
-        "id": 22,
-        "joke": "Two old Italian friends walk on a chilly winter's day. One says, 'Oh, sorry, yes. I've just left my gloves at home.'",
-        "type": "Italian",
-        "subtype": "Long"
-    },
-    {
-        "id": 23,
-        "joke": "Why are so many Italian men named Tony? When they arrived from Italy, their tags read 'To N.Y'.",
-        "type": "Italian",
-        "subtype": "Wordplay"
     },
     {
         "id": 23,
@@ -336,32 +150,14 @@
         "subtype": "One-liner"
     },
     {
-        "id": 34,
-        "joke": "Why don't Italians have freckles? They slide off.",
-        "type": "Italian",
-        "subtype": "One-liner"
-    },
-    {
-        "id": 34,
-        "joke": "Why don't Italians have freckles? They slide off.",
-        "type": "Italian",
-        "subtype": "One-liner"
-    },
-    {
         "id": 35,
         "joke": "Why did the tomato turn red? Because it saw the salad dressing!",
         "type": "Italian",
         "subtype": "Wordplay"
     },
     {
-        "id": 35,
-        "joke": "Why did the tomato turn red? Because it saw the salad dressing!",
-        "type": "Italian",
-        "subtype": "Wordplay"
-    },
-    {
-        "id": 35,
-        "joke": "Why did the tomato turn red? Because it saw the salad dressing!",
+        "id": 36,
+        "joke": "Why was the Italian chef always in trouble? He kept pasta point of no return.",
         "type": "Italian",
         "subtype": "Wordplay"
     },
@@ -384,30 +180,6 @@
         "subtype": "One-liner"
     },
     {
-        "id": 39,
-        "joke": "Why do Italians never play hide and seek? Because good luck hiding when Nonna is making pizza.",
-        "type": "Italian",
-        "subtype": "One-liner"
-    },
-    {
-        "id": 39,
-        "joke": "Why do Italians never play hide and seek? Because good luck hiding when Nonna is making pizza.",
-        "type": "Italian",
-        "subtype": "One-liner"
-    },
-    {
-        "id": 39,
-        "joke": "Why do Italians never play hide and seek? Because good luck hiding when Nonna is making pizza.",
-        "type": "Italian",
-        "subtype": "One-liner"
-    },
-    {
-        "id": 39,
-        "joke": "Why do Italians never play hide and seek? Because good luck hiding when Nonna is making pizza.",
-        "type": "Italian",
-        "subtype": "One-liner"
-    },
-    {
         "id": 40,
         "joke": "Why don't Italians like Jehovah's Witnesses? Italians don't like any witnesses.",
         "type": "Italian",
@@ -420,46 +192,10 @@
         "subtype": "One-liner"
     },
     {
-        "id": 41,
-        "joke": "Did you hear about the Italian chef? He pasta way.",
-        "type": "Italian",
-        "subtype": "One-liner"
-    },
-    {
-        "id": 41,
-        "joke": "Did you hear about the Italian chef? He pasta way.",
-        "type": "Italian",
-        "subtype": "One-liner"
-    },
-    {
-        "id": 41,
-        "joke": "Did you hear about the Italian chef? He pasta way.",
-        "type": "Italian",
-        "subtype": "One-liner"
-    },
-    {
         "id": 42,
         "joke": "Why do Italians make great detectives? Because they can remember a cannoli by its shell.",
         "type": "Italian",
         "subtype": "Wordplay"
-    },
-    {
-        "id": 42,
-        "joke": "Why do Italians make great detectives? Because they can remember a cannoli by its shell.",
-        "type": "Italian",
-        "subtype": "Wordplay"
-    },
-    {
-        "id": 42,
-        "joke": "Why do Italians make great detectives? Because they can remember a cannoli by its shell.",
-        "type": "Italian",
-        "subtype": "Wordplay"
-    },
-    {
-        "id": 43,
-        "joke": "What do you call an Italian with his hands in his pockets? A mute.",
-        "type": "Italian",
-        "subtype": "Stereotype"
     },
     {
         "id": 43,
@@ -480,46 +216,22 @@
         "subtype": "Stereotype"
     },
     {
-        "id": 45,
-        "joke": "What do you call an Italian who doesn't cheat? A myth.",
-        "type": "Italian",
-        "subtype": "Stereotype"
-    },
-    {
         "id": 46,
         "joke": "Why are Italians so good at making coffee? Because they really know how to espresso themselves.",
         "type": "Italian",
         "subtype": "Wordplay"
     },
     {
-        "id": 48,
-        "joke": "Why are most Italian men named Tony? When they got on the boat to America they stamped To NY (Tony) on their foreheads.",
-        "type": "Italian",
-        "subtype": "Wordplay"
-    },
-    {
-        "id": 48,
-        "joke": "Why are most Italian men named Tony? When they got on the boat to America they stamped To NY (Tony) on their foreheads.",
-        "type": "Italian",
-        "subtype": "Wordplay"
-    },
-    {
-        "id": 48,
-        "joke": "Why are most Italian men named Tony? When they got on the boat to America they stamped To NY (Tony) on their foreheads.",
-        "type": "Italian",
-        "subtype": "Wordplay"
-    },
-    {
-        "id": 49,
-        "joke": "Why don't Italians have acne? It slides off.",
+        "id": 47,
+        "joke": "Why do Italians wear gold chains? So they know where to stop shaving.",
         "type": "Italian",
         "subtype": "One-liner"
     },
     {
-        "id": 49,
-        "joke": "Why don't Italians have acne? It slides off.",
+        "id": 48,
+        "joke": "Why are most Italian men named Tony? When they got on the boat to America they stamped To NY (Tony) on their foreheads.",
         "type": "Italian",
-        "subtype": "One-liner"
+        "subtype": "Wordplay"
     },
     {
         "id": 49,
@@ -534,34 +246,10 @@
         "subtype": "Wordplay"
     },
     {
-        "id": 50,
-        "joke": "What do you call an Italian with a rubber toe? Roberto.",
-        "type": "Italian",
-        "subtype": "Wordplay"
-    },
-    {
         "id": 51,
         "joke": "Why did the Italian bring a ladder to the bar? He heard the drinks were on the house.",
         "type": "Italian",
         "subtype": "One-liner"
-    },
-    {
-        "id": 51,
-        "joke": "Why did the Italian bring a ladder to the bar? He heard the drinks were on the house.",
-        "type": "Italian",
-        "subtype": "One-liner"
-    },
-    {
-        "id": 51,
-        "joke": "Why did the Italian bring a ladder to the bar? He heard the drinks were on the house.",
-        "type": "Italian",
-        "subtype": "One-liner"
-    },
-    {
-        "id": 53,
-        "joke": "What do you call an Italian with a gold tooth? Roberto.",
-        "type": "Italian",
-        "subtype": "Wordplay"
     },
     {
         "id": 53,
@@ -576,8 +264,8 @@
         "subtype": "Wordplay"
     },
     {
-        "id": 54,
-        "joke": "Why did the tomato turn red? Because it saw the salad dressing!",
+        "id": 55,
+        "joke": "Why was the Italian chef always in trouble? He kept pasta point of no return.",
         "type": "Italian",
         "subtype": "Wordplay"
     },
@@ -592,30 +280,6 @@
         "joke": "Did you hear about the Italian chef? He pasta way.",
         "type": "Italian",
         "subtype": "One-liner"
-    },
-    {
-        "id": 57,
-        "joke": "Did you hear about the Italian chef? He pasta way.",
-        "type": "Italian",
-        "subtype": "One-liner"
-    },
-    {
-        "id": 57,
-        "joke": "Did you hear about the Italian chef? He pasta way.",
-        "type": "Italian",
-        "subtype": "One-liner"
-    },
-    {
-        "id": 58,
-        "joke": "Why do Italians make great detectives? Because they can remember a cannoli by its shell.",
-        "type": "Italian",
-        "subtype": "Wordplay"
-    },
-    {
-        "id": 58,
-        "joke": "Why do Italians make great detectives? Because they can remember a cannoli by its shell.",
-        "type": "Italian",
-        "subtype": "Wordplay"
     },
     {
         "id": 58,
@@ -648,34 +312,10 @@
         "subtype": "Wordplay"
     },
     {
-        "id": 62,
-        "joke": "Why are Italians so good at making coffee? Because they really know how to espresso themselves.",
-        "type": "Italian",
-        "subtype": "Wordplay"
-    },
-    {
         "id": 63,
         "joke": "Why do Italians wear gold chains? So they know where to stop shaving.",
         "type": "Italian",
         "subtype": "One-liner"
-    },
-    {
-        "id": 64,
-        "joke": "Why are most Italian men named Tony? When they got on the boat to America they stamped To NY (Tony) on their foreheads.",
-        "type": "Italian",
-        "subtype": "Wordplay"
-    },
-    {
-        "id": 64,
-        "joke": "Why are most Italian men named Tony? When they got on the boat to America they stamped To NY (Tony) on their foreheads.",
-        "type": "Italian",
-        "subtype": "Wordplay"
-    },
-    {
-        "id": 64,
-        "joke": "Why are most Italian men named Tony? When they got on the boat to America they stamped To NY (Tony) on their foreheads.",
-        "type": "Italian",
-        "subtype": "Wordplay"
     },
     {
         "id": 64,
@@ -696,24 +336,6 @@
         "subtype": "Wordplay"
     },
     {
-        "id": 66,
-        "joke": "What do you call an Italian with a rubber toe? Roberto.",
-        "type": "Italian",
-        "subtype": "Wordplay"
-    },
-    {
-        "id": 66,
-        "joke": "What do you call an Italian with a rubber toe? Roberto.",
-        "type": "Italian",
-        "subtype": "Wordplay"
-    },
-    {
-        "id": 66,
-        "joke": "What do you call an Italian with a rubber toe? Roberto.",
-        "type": "Italian",
-        "subtype": "Wordplay"
-    },
-    {
         "id": 67,
         "joke": "Why did the Italian bring a ladder to the bar? He heard the drinks were on the house.",
         "type": "Italian",
@@ -726,32 +348,8 @@
         "subtype": "One-liner"
     },
     {
-        "id": 69,
-        "joke": "Why don't Italians like barbecue? The spaghetti falls through the grill.",
-        "type": "Italian",
-        "subtype": "One-liner"
-    },
-    {
         "id": 70,
         "joke": "Why don't Italians like fast food? Because they can't catch it.",
-        "type": "Italian",
-        "subtype": "One-liner"
-    },
-    {
-        "id": 70,
-        "joke": "Why don't Italians like fast food? Because they can't catch it.",
-        "type": "Italian",
-        "subtype": "One-liner"
-    },
-    {
-        "id": 71,
-        "joke": "Why did the Italian chef open a bakery? Because he kneaded dough.",
-        "type": "Italian",
-        "subtype": "One-liner"
-    },
-    {
-        "id": 71,
-        "joke": "Why did the Italian chef open a bakery? Because he kneaded dough.",
         "type": "Italian",
         "subtype": "One-liner"
     },
@@ -798,20 +396,14 @@
         "subtype": "Long"
     },
     {
-        "id": 77,
-        "joke": "Vinny Calabrese, right off the boat from Italy, was excited about being accepted at Harvard University. On his first day on campus, he was walking around looking for the library. He saw an upperclassman standing by a tree, walked up to him and said, 'Hey piasano, coulda you tella me where isa da library at?' The upperclassman said, 'Here at Harvard we never end sentences with a preposition. Would you like to rephrase that question?' 'OK, fora you, no problem, Piasano,' said the Italian. 'Tella me, do you know where isa da library at, youa asshole?'",
-        "type": "Italian",
-        "subtype": "Long"
-    },
-    {
         "id": 78,
         "joke": "A Italian businessman on his deathbed called his good friend and said, 'Luigi, I want you to promise me that when I die you will have my remains cremated.' 'And what,' his friend asked, 'do you want me to do with your ashes?' The businessman said, 'Just put them in an envelope and mail them to the IRS...and write on the envelope, 'Now you have everything.''",
         "type": "Italian",
         "subtype": "Long"
     },
     {
-        "id": 80,
-        "joke": "Once there was a man that came from Italy to America. He couldn't speak English, so he went to choir and learned how to say 'Me me me me me me.' Then he went to the store and saw a little girl say 'He stole my dolly.' And on his way home, he went to get meat from the butcher and learned how to say 'Big butcher knife big butcher knife.' Then he went home and watched an air freshener commercial and learned how to say 'Plug it in Plug it in.' Then he went to the store, and there was a murder. The police said, 'Who killed this man?' The foreigner said, 'Me me me me me me me.' The police said, 'Why did you kill him?' And the man said, 'He stole my dolly.' The police man said, 'What did you kill him with?' The man said, 'Big butcher knife big butcher knife.' Then they took him to jail and sentenced him to death. The police man said, 'Any last words?' And the foreigner said, 'Plug it in plug it in.'",
+        "id": 79,
+        "joke": "Three men want make phone call from Hell to remind to their relatives about its harsh conditions. Their nationalities were American, Italian, and Ethiopian. So they decide to go to the Devil who is the boss. So the American made a call and the Devil made him pay 100 USD, then an Italian made a call and the Devil made him pay 10 Euros on the fact that Italy is less developed than the USA. Lastly, an Ethiopian made a call and the Devil made him pay a cent. Both the American and Italian complain as it is not fair, and the devil responded to them, 'The Ethiopian call was a local call whereas yours was an International call.'",
         "type": "Italian",
         "subtype": "Long"
     },
@@ -822,38 +414,14 @@
         "subtype": "Long"
     },
     {
-        "id": 80,
-        "joke": "Once there was a man that came from Italy to America. He couldn't speak English, so he went to choir and learned how to say 'Me me me me me me.' Then he went to the store and saw a little girl say 'He stole my dolly.' And on his way home, he went to get meat from the butcher and learned how to say 'Big butcher knife big butcher knife.' Then he went home and watched an air freshener commercial and learned how to say 'Plug it in Plug it in.' Then he went to the store, and there was a murder. The police said, 'Who killed this man?' The foreigner said, 'Me me me me me me me.' The police said, 'Why did you kill him?' And the man said, 'He stole my dolly.' The police man said, 'What did you kill him with?' The man said, 'Big butcher knife big butcher knife.' Then they took him to jail and sentenced him to death. The police man said, 'Any last words?' And the foreigner said, 'Plug it in plug it in.'",
-        "type": "Italian",
-        "subtype": "Long"
-    },
-    {
-        "id": 80,
-        "joke": "Once there was a man that came from Italy to America. He couldn't speak English, so he went to choir and learned how to say 'Me me me me me me.' Then he went to the store and saw a little girl say 'He stole my dolly.' And on his way home, he went to get meat from the butcher and learned how to say 'Big butcher knife big butcher knife.' Then he went home and watched an air freshener commercial and learned how to say 'Plug it in Plug it in.' Then he went to the store, and there was a murder. The police said, 'Who killed this man?' The foreigner said, 'Me me me me me me me.' The police said, 'Why did you kill him?' And the man said, 'He stole my dolly.' The police man said, 'What did you kill him with?' The man said, 'Big butcher knife big butcher knife.' Then they took him to jail and sentenced him to death. The police man said, 'Any last words?' And the foreigner said, 'Plug it in plug it in.'",
+        "id": 81,
+        "joke": "The three little pigs... You know the story. The big bad wolf starts 'huffing and puffing' on the house made of straw, so that little pig runs over to his brother's place made of sticks. The wolf starts to blow the stick house down, so they run over to join their third brother in the brick house. The wolf meanwhile starts huffing and puffing at the brick house. The windows rattle, the door shakes. The third pig picks up his phone and makes a call. Pretty soon, a big black Lincoln Continental pulls up and out steps two really rough-looking pigs. Wearing black fedora hats, they are dressed all in black, except for white ties. They also have machine guns, and they quickly make mincemeat out of the wolf. 'Who the hell are they?' ask the first two pigs. Replies the third pig, 'They're our neighbors, the Guinea pigs!'",
         "type": "Italian",
         "subtype": "Long"
     },
     {
         "id": 82,
         "joke": "Old Antonio is a tight ass with his money. He reckons he is going to take all his money with him when he dies. Maria, his good wife of many years, protests profusely, 'Antonio, you cannot take da money. What about me and da children?' Antonio replies, 'Screw you, bitch! It's my money, and I earned it!' So duly on the day of Antonio's funeral, Maria and the kids are crying over pappa's coffin when one of the children speaks up: 'Momma, you didn't give pappa the money, did you?' Maria replied, 'Yes, I gave the dead bastard his fucking money. It's in a cheque. Let's see him cash that!'",
-        "type": "Italian",
-        "subtype": "Long"
-    },
-    {
-        "id": 82,
-        "joke": "Old Antonio is a tight ass with his money. He reckons he is going to take all his money with him when he dies. Maria, his good wife of many years, protests profusely, 'Antonio, you cannot take da money. What about me and da children?' Antonio replies, 'Screw you, bitch! It's my money, and I earned it!' So duly on the day of Antonio's funeral, Maria and the kids are crying over pappa's coffin when one of the children speaks up: 'Momma, you didn't give pappa the money, did you?' Maria replied, 'Yes, I gave the dead bastard his fucking money. It's in a cheque. Let's see him cash that!'",
-        "type": "Italian",
-        "subtype": "Long"
-    },
-    {
-        "id": 83,
-        "joke": "You know how American ships' names begin with 'USS,' which stands for 'United States Service.' Then there are British ships, which names begin with 'HMS' for 'Her Majesty's Service.' So why do Italian ships' names start with 'AMB'? 'Att-sa My Boat!'",
-        "type": "Italian",
-        "subtype": "Long"
-    },
-    {
-        "id": 83,
-        "joke": "You know how American ships' names begin with 'USS,' which stands for 'United States Service.' Then there are British ships, which names begin with 'HMS' for 'Her Majesty's Service.' So why do Italian ships' names start with 'AMB'? 'Att-sa My Boat!'",
         "type": "Italian",
         "subtype": "Long"
     },
@@ -874,18 +442,6 @@
         "joke": "What do you call the rough parts of Italy? The spa-ghetto.",
         "type": "Italian",
         "subtype": "Wordplay"
-    },
-    {
-        "id": 85,
-        "joke": "What do you call the rough parts of Italy? The spa-ghetto.",
-        "type": "Italian",
-        "subtype": "Wordplay"
-    },
-    {
-        "id": 86,
-        "joke": "Why are Italians short? Because when they are kids they are told: 'When you grow up, you'll have to find a job.'",
-        "type": "Italian",
-        "subtype": "Observational"
     },
     {
         "id": 86,
