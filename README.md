@@ -1,19 +1,19 @@
 # Italian Jokes API
 
-A small, public JSON API that returns random Italian jokes. Try the live site at [italian-jokes-dbliss-projects.vercel.app](https://italian-jokes-dbliss-projects.vercel.app/).
+A small, public JSON API that returns random Italian jokes. Try the live site at [italian-jokes.vercel.app](https://italian-jokes.vercel.app/).
 
 ## API
 
 ### Get a random joke
 
 ```text
-GET https://italian-jokes-dbliss-projects.vercel.app/api/jokes
+GET https://italian-jokes.vercel.app/api/jokes
 ```
 
 ### Filter by subtype
 
 ```text
-GET https://italian-jokes-dbliss-projects.vercel.app/api/jokes?subtype=One-liner
+GET https://italian-jokes.vercel.app/api/jokes?subtype=One-liner
 ```
 
 Subtype names are case-insensitive and tolerate surrounding whitespace. Available subtypes are `One-liner`, `Observational`, `Stereotype`, `Wordplay`, and `Long`.
@@ -21,13 +21,13 @@ Subtype names are case-insensitive and tolerate surrounding whitespace. Availabl
 ### Get a joke by ID
 
 ```text
-GET https://italian-jokes-dbliss-projects.vercel.app/api/jokes/42
+GET https://italian-jokes.vercel.app/api/jokes/42
 ```
 
 ### List subtypes
 
 ```text
-GET https://italian-jokes-dbliss-projects.vercel.app/api/subtypes
+GET https://italian-jokes.vercel.app/api/subtypes
 ```
 
 This returns the canonical subtype names and their current joke counts.
