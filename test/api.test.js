@@ -81,11 +81,11 @@ test("GET /api/subtypes returns canonical names with current counts", () => {
     assert.equal(result.statusCode, 200);
     assert.deepEqual(result.body, {
         subtypes: [
-            { name: "One-liner", count: 23 },
-            { name: "Observational", count: 9 },
-            { name: "Stereotype", count: 9 },
-            { name: "Wordplay", count: 19 },
-            { name: "Long", count: 16 },
+            { name: "One-liner", count: 28 },
+            { name: "Observational", count: 15 },
+            { name: "Stereotype", count: 15 },
+            { name: "Wordplay", count: 27 },
+            { name: "Long", count: 19 },
         ],
     });
 });

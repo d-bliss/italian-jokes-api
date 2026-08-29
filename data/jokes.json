@@ -454,5 +454,173 @@
         "joke": "A man tells his Italian neighbor, ‘I finally learned to cook spaghetti.’ The neighbor asks, ‘Did you make the sauce from scratch?’ ‘No, from a jar.’ The neighbor puts a hand on his heart and says, ‘Then you learned to open a jar. Cooking is tomorrow.’",
         "type": "Italian",
         "subtype": "Long"
+    },
+    {
+        "id": 103,
+        "joke": "Why did the Italian orchestra rehearse in the kitchen? The conductor wanted a little more sauce in the strings.",
+        "type": "Italian",
+        "subtype": "Wordplay"
+    },
+    {
+        "id": 104,
+        "joke": "An Italian family can turn ‘What time is dinner?’ into a three-act play, an intermission, and a dessert course.",
+        "type": "Italian",
+        "subtype": "Observational"
+    },
+    {
+        "id": 105,
+        "joke": "Why did the Italian chef bring a passport to the pantry? The oregano was imported.",
+        "type": "Italian",
+        "subtype": "One-liner"
+    },
+    {
+        "id": 106,
+        "joke": "What is an Italian grandmother’s favorite kitchen appliance? The one that lets her ask why you are so thin.",
+        "type": "Italian",
+        "subtype": "Stereotype"
+    },
+    {
+        "id": 107,
+        "joke": "Why did the Italian baker refuse to rush? Good bread, good coffee, and good gossip all need time to rise.",
+        "type": "Italian",
+        "subtype": "Observational"
+    },
+    {
+        "id": 108,
+        "joke": "What do you call an Italian detective with a cheese board? An investigorgonzola.",
+        "type": "Italian",
+        "subtype": "Wordplay"
+    },
+    {
+        "id": 109,
+        "joke": "In Italy, ‘a quick coffee’ is a beverage, a meeting, and a chance to hear exactly what happened to your cousin.",
+        "type": "Italian",
+        "subtype": "Observational"
+    },
+    {
+        "id": 110,
+        "joke": "Why did the Italian bring a map to the family reunion? He was trying to find the quiet side of the room.",
+        "type": "Italian",
+        "subtype": "Stereotype"
+    },
+    {
+        "id": 111,
+        "joke": "The Italian waiter said the pasta was al dente. The customer said, ‘Perfect.’ The waiter replied, ‘Finally, someone who respects boundaries.’",
+        "type": "Italian",
+        "subtype": "Long"
+    },
+    {
+        "id": 112,
+        "joke": "Why did the Italian musician get kicked out of the pizzeria? He kept asking for extra treble.",
+        "type": "Italian",
+        "subtype": "Wordplay"
+    },
+    {
+        "id": 113,
+        "joke": "An Italian menu never says ‘small plate.’ It says ‘a little something’ and then arrives with its own weather system.",
+        "type": "Italian",
+        "subtype": "Observational"
+    },
+    {
+        "id": 114,
+        "joke": "Why did the Italian painter only work before dinner? After dinner, every canvas looked like it needed more olive oil.",
+        "type": "Italian",
+        "subtype": "One-liner"
+    },
+    {
+        "id": 115,
+        "joke": "What do you call an Italian who tells a very slow joke? Pasta patience.",
+        "type": "Italian",
+        "subtype": "Wordplay"
+    },
+    {
+        "id": 116,
+        "joke": "Why did the Italian family buy a round table? So no one could claim they were not part of the argument.",
+        "type": "Italian",
+        "subtype": "Stereotype"
+    },
+    {
+        "id": 117,
+        "joke": "A tourist asked for directions in Naples. By the time the answer included three landmarks, two cousins, and a bakery, the tourist had decided to stay for lunch.",
+        "type": "Italian",
+        "subtype": "Long"
+    },
+    {
+        "id": 118,
+        "joke": "Why did the Italian gardener talk to the basil? He was trying to cultivate better conversation.",
+        "type": "Italian",
+        "subtype": "Wordplay"
+    },
+    {
+        "id": 119,
+        "joke": "What does an Italian host mean by ‘we only made a little’? Clear your calendar.",
+        "type": "Italian",
+        "subtype": "One-liner"
+    },
+    {
+        "id": 120,
+        "joke": "Why did the Italian student ace geography? Every wrong turn on vacation came with a detailed family debrief.",
+        "type": "Italian",
+        "subtype": "Observational"
+    },
+    {
+        "id": 121,
+        "joke": "Why was the Italian clock always hungry? It kept going back for seconds.",
+        "type": "Italian",
+        "subtype": "Wordplay"
+    },
+    {
+        "id": 122,
+        "joke": "An Italian family’s group chat has three settings: dinner plans, photos of dinner, and whether the photos did the dinner justice.",
+        "type": "Italian",
+        "subtype": "Observational"
+    },
+    {
+        "id": 123,
+        "joke": "Why did the Italian chess player open with the queen? Nobody at the table was going to tell her to wait.",
+        "type": "Italian",
+        "subtype": "Stereotype"
+    },
+    {
+        "id": 124,
+        "joke": "What do you call a very polite Italian espresso? A depresso with manners.",
+        "type": "Italian",
+        "subtype": "Wordplay"
+    },
+    {
+        "id": 125,
+        "joke": "Why did the Italian family bring leftovers to the potluck? They did not trust the potluck to have enough leftovers.",
+        "type": "Italian",
+        "subtype": "Stereotype"
+    },
+    {
+        "id": 126,
+        "joke": "The Italian cookbook had one mysterious instruction: ‘Add salt until your ancestors nod.’",
+        "type": "Italian",
+        "subtype": "One-liner"
+    },
+    {
+        "id": 127,
+        "joke": "Why did the Italian taxi driver keep a cookbook in the glove compartment? Every route needed a better finish.",
+        "type": "Italian",
+        "subtype": "One-liner"
+    },
+    {
+        "id": 128,
+        "joke": "A man asks an Italian friend how long dinner will take. His friend says, ‘Dinner is at seven. The first goodbye is around eleven.’",
+        "type": "Italian",
+        "subtype": "Long"
+    },
+    {
+        "id": 129,
+        "joke": "Why did the Italian comedian carry a wooden spoon? For stirring up the room.",
+        "type": "Italian",
+        "subtype": "Wordplay"
+    },
+    {
+        "id": 130,
+        "joke": "What do you call an Italian family that agrees on a restaurant? A legendary sighting.",
+        "type": "Italian",
+        "subtype": "Stereotype"
     }
 ]
