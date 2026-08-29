@@ -1,12 +1,23 @@
 {
-  "name": "italian-jokes",
+  "name": "italian-jokes-api",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "description": "A public JSON API serving random Italian jokes.",
+  "private": true,
+    "scripts": {
+        "test": "node --test",
+        "validate:data": "node scripts/validate-jokes.js",
+        "next:id": "node scripts/next-joke-id.js",
+        "check": "npm run validate:data && npm test"
+    },
+    "engines": {
+        "node": ">=20"
+    },
+  "keywords": [
+    "api",
+    "jokes",
+    "italian",
+    "vercel"
+  ],
+  "author": "Daniel Bliss",
+  "license": "MIT"
 }

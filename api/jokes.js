@@ -1,21 +1,39 @@
-const jokes = require("../jokes.json");
+const jokes = require("../data/jokes.json");
+const { handlePreflight, methodNotAllowed, setApiHeaders } = require("../lib/http");
+const {
+    UnknownSubtypeError,
+    getJokesForSubtype,
+    pickRandomJoke,
+    SUBTYPES,
+} = require("../lib/jokes");
 
 module.exports = (req, res) => {
-    const { subtype } = req.query;
+    setApiHeaders(res);
 
-    if (subtype) {
-        const filteredJokes = jokes.filter((joke) => joke.subtype === subtype);
-        if (filteredJokes.length === 0) {
-            return res
-                .status(404)
-                .json({ error: "No jokes found for the specified subtype." });
-        }
-        const randomIndex = Math.floor(Math.random() * filteredJokes.length);
-        const randomJoke = filteredJokes[randomIndex];
-        return res.status(200).json(randomJoke);
+    if (handlePreflight(req, res)) {
+        return;
     }
 
-    const randomIndex = Math.floor(Math.random() * jokes.length);
-    const randomJoke = jokes[randomIndex];
-    res.status(200).json(randomJoke);
+    if ((req.method || "GET") !== "GET") {
+        return methodNotAllowed(res);
+    }
+
+    const { subtype } = req.query || {};
+
+    if (subtype) {
+        try {
+            return res.status(200).json(pickRandomJoke(getJokesForSubtype(jokes, subtype)));
+        } catch (error) {
+            if (error instanceof UnknownSubtypeError) {
+                return res.status(400).json({
+                    error: "Unknown subtype.",
+                    allowedSubtypes: SUBTYPES,
+                });
+            }
+
+            throw error;
+        }
+    }
+
+    return res.status(200).json(pickRandomJoke(jokes));
 };

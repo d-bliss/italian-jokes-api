@@ -1,182 +1,115 @@
-<!DOCTYPE html>
-<html>
-
+<!doctype html>
+<html lang="en">
 <head>
-    <title>Italian Jokes API: Laughter, Italian Style!</title>
-    <meta name="description"
-        content="Italian Jokes API - Retrieve jokes that celebrate the humor of Italian culture.">
-    <meta name="keywords" content="API, Italian, Jokes, Humor">
-
-    <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A free public API for random Italian jokes.">
+    <title>Italian Jokes API</title>
+    <link rel="icon" href="favicon.ico" sizes="any">
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 </head>
-
-<body class="bg-gray-100">
-    <!-- Spacing between the sections -->
-    <div class="py-3"></div>
-    <div class="container mx-auto p-8 bg-white shadow-lg">
-        <h1 class="text-4xl mb-4">🇮🇹 Welcome to the Italian Jokes API</h1>
-        <div class="mb-4">
-            <h3 class="text-2xl">Overview</h3>
-            <p>Benvenuti! The Italians are known for their delectable cuisine,
-                expressive language, and vibrant culture. Another wonderful part of
-                Italian culture? A great sense of humor! The Italian Jokes API is
-                your gateway to laughter with an Italian twist, offering jokes from
-                various categories to tickle your funny bone. Viva la risata! (Long
-                live laughter!)</p>
+<body>
+    <header class="site-header">
+        <div class="page-shell header-content">
+            <a class="brand" href="#top" aria-label="Italian Jokes API home">
+                <span class="brand-mark" aria-hidden="true">🍝</span>
+                <span>Italian Jokes API</span>
+            </a>
+            <a class="text-link" href="#api">API reference</a>
         </div>
-    
-        <div class="mb-4">
-            <label for="subtypeSelect" class="block font-semibold">Select a joke
-                subtype:</label>
-            <select id="subtypeSelect"
-                class="border border-gray-300 rounded-md px-3 py-2 w-full md:w-1/3 focus:outline-none">
-                <option value="">All</option>
-                <option value="One-liner">One-liner</option>
-                <option value="Observational">Observational</option>
-                <option value="Stereotype">Stereotype</option>
-                <option value="Wordplay">Wordplay</option>
-                <option value="Long">Long</option>
-            </select>
-        </div>
-    
-        <div class="mb-4 flex items-center">
-            <input type="checkbox" id="ttsToggle" class="tts-toggle-input mr-2">
-            <label for="ttsToggle" class="tts-toggle-label">
-                Toggle to play jokes aloud
-            </label>
-        </div>
+    </header>
 
-        <button id="fetchButton"
-            class="py-2 px-4 bg-blue-500 text-white rounded-md fetch-button">Get
-            Joke</button>
+    <main id="top" class="page-shell">
+        <section class="hero" aria-labelledby="page-title">
+            <p class="eyebrow">Free · Public · A little ridiculous</p>
+            <h1 id="page-title">A random Italian joke, whenever you need one.</h1>
+            <p class="hero-copy">Pick a style, grab a joke, and—if you like—have your browser read it aloud.</p>
+        </section>
 
-    
-        <div id="jokeContainer" class="joke-container"></div>
-    </div>
-
-    <!-- Spacing between the sections -->
-    <div class="py-2"></div>
-
-        <!-- API Documentation Section -->
-        <div class="container mx-auto p-8 bg-white shadow-lg custom-wider-container">
-            <h2 class="text-2xl font-semibold mb-4">API Documentation</h2>
-
-            <div class="documentation-section">
-                <h3
-                    class="documentation-subheading text-2xl font-semibold mb-4">
-                    Overview</h3>
-                <p class="documentation-paragraph text-lg">The Italian Jokes API
-                    allows
-                    you to retrieve jokes about Italians, showcasing their
-                    vibrant culture
-                    and lighthearted spirit. It provides various endpoints to
-                    fetch jokes
-                    based on different subtypes.</p>
+        <section class="joke-panel" aria-labelledby="joke-panel-title">
+            <div class="panel-heading">
+                <div>
+                    <p class="eyebrow">Joke generator</p>
+                    <h2 id="joke-panel-title">Make me laugh</h2>
+                </div>
+                <p id="statusMessage" class="status-message" role="status" aria-live="polite">Loading joke categories…</p>
             </div>
 
-            <div class="documentation-section mt-6">
-                <h3
-                    class="documentation-subheading text-2xl font-semibold mb-4">
-                    API Usage</h3>
-                <p class="documentation-paragraph text-lg">To retrieve a joke,
-                    you can make
-                    a GET request to the following endpoint:</p>
-                <pre
-                    class="documentation-code text-lg bg-gray-100 p-4 rounded"><code>GET /api/jokes</code></pre>
+            <div class="controls">
+                <div class="field">
+                    <label for="subtypeSelect">Joke style</label>
+                    <select id="subtypeSelect" disabled>
+                        <option value="">All jokes</option>
+                    </select>
+                </div>
+                <button id="fetchButton" class="button button-primary" type="button" disabled>Get a joke</button>
             </div>
 
-            <div class="documentation-section mt-6">
-                <h3
-                    class="documentation-subheading text-2xl font-semibold mb-4">
-                    Query Parameters</h3>
-                <p class="documentation-paragraph text-lg">The API supports the
-                    following
-                    query parameters:</p>
-                <ul class="documentation-list list-disc list-inside">
-                    <li class="documentation-list-item text-lg">
-                        <strong>subtype</strong> (optional): Specifies the
-                        subtype
-                        of jokes to fetch. Available subtypes
-                        include: All, One-liner, Observational, Stereotype,
-                        Wordplay, Long. Example: <code>?subtype=One-liner</code>
-                    </li>
-                </ul>
+            <article id="jokeCard" class="joke-card" aria-live="polite" hidden>
+                <p id="jokeSubtype" class="joke-subtype"></p>
+                <p id="jokeText" class="joke-text"></p>
+                <div id="speechControls" class="speech-controls" hidden>
+                    <button id="listenButton" class="button button-secondary" type="button" disabled>Listen</button>
+                    <p class="speech-note">Uses your browser’s default voice.</p>
+                </div>
+            </article>
+        </section>
+
+        <section id="api" class="content-section" aria-labelledby="api-title">
+            <p class="eyebrow">For builders</p>
+            <h2 id="api-title">Small API, straightforward answers.</h2>
+            <p>There’s no key, sign-up, or complicated setup. All endpoints return JSON and allow browser requests.</p>
+
+            <div class="endpoint-grid">
+                <article class="endpoint-card">
+                    <h3>Random joke</h3>
+                    <code>GET /api/jokes</code>
+                    <p>Add <code>?subtype=Wordplay</code> to filter. Subtype names are case-insensitive.</p>
+                </article>
+                <article class="endpoint-card">
+                    <h3>One joke by ID</h3>
+                    <code>GET /api/jokes/42</code>
+                    <p>Use a stable joke ID when you want to reference one specific joke.</p>
+                </article>
+                <article class="endpoint-card">
+                    <h3>Available styles</h3>
+                    <code>GET /api/subtypes</code>
+                    <p>Returns the canonical subtype names and the current count for each.</p>
+                </article>
             </div>
 
-            <div class="documentation-section mt-6">
-                <h3 class="documentation-subheading text-2xl font-semibold mb-4">Response
-                    Format</h3>
-                <p class="documentation-paragraph text-lg">The API responds with a JSON
-                    object containing the following properties:</p>
-                <pre
-                    class="documentation-code text-lg bg-gray-100 p-4 rounded overflow-x-auto whitespace-pre"><code>{
-    "id": 1,
-    "joke": "Why did the Mafia cross the road? Forget about it.",
-    "type": "Italian",
-    "subtype": "One-liner"
+            <div class="code-example" aria-label="Example API response">
+                <p class="code-label">Example response</p>
+                <pre><code>{
+  "id": 13,
+  "joke": "What do you call a deceptive Italian dish? An impasta.",
+  "type": "Italian",
+  "subtype": "Wordplay"
 }</code></pre>
             </div>
+        </section>
 
-            <div class="documentation-section mt-6">
-                <h3
-                    class="documentation-subheading text-2xl font-semibold mb-4">
-                    Examples</h3>
-                <p class="documentation-paragraph text-lg">Here are some
-                    examples of how to
-                    interact with the API:</p>
-                <pre class="documentation-code text-lg bg-gray-100 p-4 rounded overflow-x-auto whitespace-pre"><code>// Fetch a random joke
-GET /api/jokes
-
-// Fetch a joke of a specific subtype
-GET /api/jokes?subtype=Observational</code></pre>
+        <section class="content-section split-section" aria-label="Project links">
+            <div>
+                <p class="eyebrow">Have one to share?</p>
+                <h2>Send in a joke.</h2>
+                <p>Good additions are always welcome. Submit a candidate and it can be reviewed for a future update.</p>
+                <a class="button button-secondary" href="https://forms.gle/XnYn6EbHB9m23xfTA" target="_blank" rel="noreferrer">Submit a joke</a>
             </div>
-        </div>
-    </div>
-    
-    <script src="script.js"></script>
-    <div class="py-2"></div>
+            <div class="listing-note">
+                <p class="eyebrow">Also listed on</p>
+                <a class="listing-link" href="https://publicapis.dev/" target="_blank" rel="noreferrer">PublicAPIs.dev <span aria-hidden="true">↗</span></a>
+            </div>
+        </section>
+    </main>
 
-<!-- Joke Submission Section -->
-<div class="container mx-auto p-8 bg-white shadow-lg custom-wider-container">
-    <h2 class="text-2xl font-semibold mb-4">Submit Your Own Joke!</h2>
-    <p class="text-lg mb-4">Got a great Italian joke? We'd love to hear it!
-        Submit it via our Google Form:</p>
-    <a href="https://forms.gle/XnYn6EbHB9m23xfTA"
-        class="py-2 px-4 bg-blue-500 text-white rounded-md"
-        target="_blank">Submit Joke</a>
-</div>
-
-<div class="py-2"></div>
-
-<!-- Public APIs Section -->
-<div class="container mx-auto p-8 bg-white shadow-lg custom-wider-container">
-    <h2 class="text-2xl font-semibold mb-4">Featured on PublicAPIs.dev</h2>
-    <p class="text-lg">
-        We're proud to announce that the Italian Jokes API is listed on
-        <a href="https://publicapis.dev/" target="_blank" class="text-blue-500">
-            PublicAPIs.dev</a>, a collaborative list of public APIs for
-        developers.
-    </p>
-</div>
-
-<div class="py-2"></div>
-
-<!-- Footer -->
-    <footer class="py-4 bg-white">
-        <div class="container mx-auto text-center">
-            <p>&copy; <span id="currentYear"></span> Daniel Bliss. All rights
-                reserved. Built by <a
-                    href="https://github.com/d-bliss/italian-jokes-api"
-                    target="_blank" class="text-blue-500">Bliss</a>
-            </p>
+    <footer class="site-footer">
+        <div class="page-shell footer-content">
+            <p>© <span id="currentYear"></span> Daniel Bliss</p>
+            <a href="https://github.com/d-bliss/italian-jokes-api" target="_blank" rel="noreferrer">View on GitHub</a>
         </div>
     </footer>
-    
-    </body>
-    
-    </html>
+
+    <script type="module" src="src/app.js"></script>
+</body>
+</html>

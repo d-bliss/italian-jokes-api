@@ -240,12 +240,6 @@
         "subtype": "One-liner"
     },
     {
-        "id": 50,
-        "joke": "What do you call an Italian with a rubber toe? Roberto.",
-        "type": "Italian",
-        "subtype": "Wordplay"
-    },
-    {
         "id": 51,
         "joke": "Why did the Italian bring a ladder to the bar? He heard the drinks were on the house.",
         "type": "Italian",
@@ -256,90 +250,6 @@
         "joke": "What do you call an Italian with a gold tooth? Roberto.",
         "type": "Italian",
         "subtype": "Wordplay"
-    },
-    {
-        "id": 54,
-        "joke": "Why did the tomato turn red? Because it saw the salad dressing!",
-        "type": "Italian",
-        "subtype": "Wordplay"
-    },
-    {
-        "id": 55,
-        "joke": "Why was the Italian chef always in trouble? He kept pasta point of no return.",
-        "type": "Italian",
-        "subtype": "Wordplay"
-    },
-    {
-        "id": 56,
-        "joke": "Why don't Italians like Jehovah's Witnesses? Italians don't like any witnesses.",
-        "type": "Italian",
-        "subtype": "One-liner"
-    },
-    {
-        "id": 57,
-        "joke": "Did you hear about the Italian chef? He pasta way.",
-        "type": "Italian",
-        "subtype": "One-liner"
-    },
-    {
-        "id": 58,
-        "joke": "Why do Italians make great detectives? Because they can remember a cannoli by its shell.",
-        "type": "Italian",
-        "subtype": "Wordplay"
-    },
-    {
-        "id": 59,
-        "joke": "What do you call an Italian with his hands in his pockets? A mute.",
-        "type": "Italian",
-        "subtype": "Stereotype"
-    },
-    {
-        "id": 60,
-        "joke": "Why do Italians talk with their hands? Because they have to work it out with their fingers.",
-        "type": "Italian",
-        "subtype": "Observational"
-    },
-    {
-        "id": 61,
-        "joke": "What do you call an Italian who doesn't cheat? A myth.",
-        "type": "Italian",
-        "subtype": "Stereotype"
-    },
-    {
-        "id": 62,
-        "joke": "Why are Italians so good at making coffee? Because they really know how to espresso themselves.",
-        "type": "Italian",
-        "subtype": "Wordplay"
-    },
-    {
-        "id": 63,
-        "joke": "Why do Italians wear gold chains? So they know where to stop shaving.",
-        "type": "Italian",
-        "subtype": "One-liner"
-    },
-    {
-        "id": 64,
-        "joke": "Why are most Italian men named Tony? When they got on the boat to America they stamped To NY (Tony) on their foreheads.",
-        "type": "Italian",
-        "subtype": "Wordplay"
-    },
-    {
-        "id": 65,
-        "joke": "Why don't Italians have acne? It slides off.",
-        "type": "Italian",
-        "subtype": "One-liner"
-    },
-    {
-        "id": 66,
-        "joke": "What do you call an Italian with a rubber toe? Roberto.",
-        "type": "Italian",
-        "subtype": "Wordplay"
-    },
-    {
-        "id": 67,
-        "joke": "Why did the Italian bring a ladder to the bar? He heard the drinks were on the house.",
-        "type": "Italian",
-        "subtype": "One-liner"
     },
     {
         "id": 69,
@@ -457,8 +367,92 @@
     },
     {
         "id": 88,
-        "joke": "Why do Italian programmers always seem so confident?",
-        "type": "Because they know how to pasta test!",
+        "joke": "Why do Italian programmers always seem so confident? Because they know how to pasta test!",
+        "type": "Italian",
         "subtype": "Wordplay"
+    },
+    {
+        "id": 89,
+        "joke": "At an Italian family dinner, ‘take some home’ is less an offer than the final phase of the meal.",
+        "type": "Italian",
+        "subtype": "Observational"
+    },
+    {
+        "id": 90,
+        "joke": "An Italian recipe can begin with ‘just eyeball it,’ but every aunt at the table has a different measuring eye.",
+        "type": "Italian",
+        "subtype": "Observational"
+    },
+    {
+        "id": 91,
+        "joke": "In an Italian household, saying goodbye at the front door takes twenty minutes because every farewell has three encores.",
+        "type": "Italian",
+        "subtype": "Observational"
+    },
+    {
+        "id": 92,
+        "joke": "Why did the Italian bring a backup spoon to dinner? In case someone suggested sharing dessert.",
+        "type": "Italian",
+        "subtype": "Stereotype"
+    },
+    {
+        "id": 93,
+        "joke": "Why did the Italian family arrive early at the restaurant? So they could debate the menu before anyone else got there.",
+        "type": "Italian",
+        "subtype": "Stereotype"
+    },
+    {
+        "id": 94,
+        "joke": "What does an Italian do when the GPS says ‘turn left’? Asks everyone in the car whether the GPS has tried the other route.",
+        "type": "Italian",
+        "subtype": "Stereotype"
+    },
+    {
+        "id": 95,
+        "joke": "What do you call an Italian chef who fixes computers? A pasta processor.",
+        "type": "Italian",
+        "subtype": "Wordplay"
+    },
+    {
+        "id": 96,
+        "joke": "Why did the Italian barista study philosophy? He kept asking, ‘To espresso, or not to espresso?’",
+        "type": "Italian",
+        "subtype": "Wordplay"
+    },
+    {
+        "id": 97,
+        "joke": "What did the Italian programmer name the function that saves dinner? pastaLaVista().",
+        "type": "Italian",
+        "subtype": "Wordplay"
+    },
+    {
+        "id": 98,
+        "joke": "Why did the Italian baker get promoted? She always rose to the occasion.",
+        "type": "Italian",
+        "subtype": "Wordplay"
+    },
+    {
+        "id": 99,
+        "joke": "The fastest way to start an Italian family debate is to say, ‘I think the sauce is fine.’",
+        "type": "Italian",
+        "subtype": "One-liner"
+    },
+    {
+        "id": 100,
+        "joke": "An Italian grandmother’s recipe has two measurements: ‘enough’ and ‘you’ll know.’",
+        "type": "Italian",
+        "subtype": "One-liner"
+    },
+    {
+        "id": 101,
+        "joke": "A tourist asks a waiter in Rome, ‘Is the pasta homemade?’ The waiter says, ‘Of course.’ ‘What about the sauce?’ ‘Also homemade.’ ‘And the bread?’ The waiter smiles: ‘Sir, even the arguments are homemade.’",
+        "type": "Italian",
+        "subtype": "Long"
+    },
+    {
+        "id": 102,
+        "joke": "A man tells his Italian neighbor, ‘I finally learned to cook spaghetti.’ The neighbor asks, ‘Did you make the sauce from scratch?’ ‘No, from a jar.’ The neighbor puts a hand on his heart and says, ‘Then you learned to open a jar. Cooking is tomorrow.’",
+        "type": "Italian",
+        "subtype": "Long"
     }
 ]

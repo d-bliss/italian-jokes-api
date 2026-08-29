@@ -1,8 +1,3 @@
-.vercel
-italian-jokes-api/
+.vercel/
+node_modules/
 .DS_Store
-# MAKE SURE YOU COMMENT OUT THE JOKES.JSON FILE WHEN PUSHING TO VERCEL
-jokes.json
-# To push to vercel use the below command
-# npx vercel --prod 
-# MAKE SURE YOU COMMENT OUT THE JOKES.JSON FILE WHEN PUSHING TO VERCEL

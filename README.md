@@ -1,130 +1,99 @@
 # Italian Jokes API
 
-Welcome to the Italian Jokes API! This API allows you to retrieve jokes about Italians. You can try out the deployed application at https://italian-jokes.vercel.app/. Feel free to interact with the API, and fetch jokes based on different subtypes.
+A small, public JSON API that returns random Italian jokes. Try the live site at [italian-jokes.vercel.app](https://italian-jokes.vercel.app/).
 
+## API
 
-## Table of Contents
-- [Overview](#overview)
-- [API Usage](#api-usage)
-- [Getting Started](#getting-started)
-  - [Creating the jokes.json File](#creating-the-jokesjson-file)
-- [Jokes Format](#jokes-format)
-- [Contributing](#contributing)
-- [License](#license)
-- [Credits](#credits)
+### Get a random joke
 
+```text
+GET https://italian-jokes.vercel.app/api/jokes
+```
 
-## Overview
-Welcome to the Italian Jokes API, a simple API that allows you to retrieve jokes about Italians. This API provides various endpoints to fetch jokes based on different subtypes, such as one-liners, observational, stereotypes, wordplay, and long jokes.
+### Filter by subtype
 
-## API Usage
-To retrieve a joke, you can make a GET request to the following endpoint:
+```text
+GET https://italian-jokes.vercel.app/api/jokes?subtype=One-liner
+```
 
+Subtype names are case-insensitive and tolerate surrounding whitespace. Available subtypes are `One-liner`, `Observational`, `Stereotype`, `Wordplay`, and `Long`.
 
-GET /api/jokes
+### Get a joke by ID
 
-You can also specify a subtype to fetch jokes of a specific type by appending the `subtype` query parameter to the endpoint. The available subtypes include:
-- All
-- One-liner
-- Observational
-- Stereotype
-- Wordplay
-- Long
+```text
+GET https://italian-jokes.vercel.app/api/jokes/42
+```
 
-Example request to fetch jokes of the "One-liner" subtype:
+### List subtypes
 
-GET /api/jokes?subtype=One-liner
+```text
+GET https://italian-jokes.vercel.app/api/subtypes
+```
 
+This returns the canonical subtype names and their current joke counts.
 
-The API responds with a JSON object containing the joke details, including the ID, joke text, type, and subtype.
-
-## Getting Started
-
-To run the Italian Jokes API locally, follow these steps:
-
-1. Clone the repository:
-
-    ```
-    git clone https://github.com/your-username/italian-jokes-api.git
-    ```
-
-2. Install the required dependencies:
-
-    ```
-    npm install
-    ```
-
-3. Start the server:
-
-    ```
-    npm start
-    ```
-
-The API will be available at http://localhost:3000/api/jokes.
-
-
-### Creating the jokes.json File
-
-To access the collection of Italian jokes, you need to create the jokes.json file. Follow these additional instructions:
-
-1. Navigate to the root folder of the project.
-2. Create a new file named jokes.json.
-3. Open the jokes.json file in a text editor.
-4. Copy and paste the following jokes in the specified format:
-
-    ```json
-    [
-        {
-            "id": 1,
-            "joke": "Why did the Mafia cross the road? Forget about it.",
-            "type": "Italian",
-            "subtype": "One-liner"
-        },
-        {
-            "id": 2,
-            "joke": "How does every Italian joke start? By looking over your shoulder.",
-            "type": "Italian",
-            "subtype": "Observational"
-        },
-        // Add more jokes following the same format...
-    ]
-    ```
-
-5. Save the jokes.json file.
-
-
-## Jokes Format
-
-Each joke in the jokes.json file should be in the following format:
+The joke endpoints return one JSON object:
 
 ```json
 {
-    "id": "[ID_NUMBER]",
-    "joke": "[JOKE_TEXT]",
-    "type": "[JOKE_TYPE]",
-    "subtype": "[JOKE_SUBTYPE]"
+  "id": 1,
+  "joke": "Why did the Mafia cross the road? Forget about it.",
+  "type": "Italian",
+  "subtype": "One-liner"
 }
 ```
 
-- [ID_NUMBER] represents the unique identifier for the joke (e.g., 1, 2, 3, ...).
-- [JOKE_TEXT] is the actual joke text.
-- [JOKE_TYPE] represents the type of joke (e.g., Italian, English, Puns, etc.).
-- [JOKE_SUBTYPE] indicates the subtype of the joke (e.g., All, One-liner, Observational, Stereotype, Wordplay, Long).
+The API accepts browser requests from any origin and does not require authentication. It supports `GET` and CORS `OPTIONS` requests; other methods receive `405 Method Not Allowed`.
 
-Feel free to add more jokes following the same format. Make sure to separate each joke with a comma (,) except for the last one.
+An unknown subtype returns `400 Bad Request` with the allowed values. An invalid ID returns `400 Bad Request`, while an ID that does not exist returns `404 Not Found`.
 
-That's it! You have successfully set up and created the jokes.json file. You can now run the Italian Jokes API locally and access the jokes through the provided endpoint.
+## Local development
+
+Clone the repository and run the baseline tests:
+
+```sh
+git clone https://github.com/d-bliss/italian-jokes-api.git
+cd italian-jokes-api
+npm test
+```
+
+The project has no package dependencies. To preview both the static site and Vercel API functions locally, use the Vercel CLI:
+
+```sh
+npx vercel dev
+```
+
+Use Node 20 or later for the local Vercel workflow; CI uses the same baseline. The CLI may ask you to sign in or link the project on first use. It serves the local site and API functions together; there is intentionally no `npm start` server script.
+
+## Release checks
+
+The repository runs `npm run check` in GitHub Actions for every pull request and push. Before deploying, use the [release checklist](RELEASING.md) to verify a Vercel preview, the browser experience, and the public API listing.
+
+## Joke data
+
+The tracked [`data/jokes.json`](data/jokes.json) file is the current collection. Each record uses this shape:
+
+```json
+{
+  "id": 1,
+  "joke": "Joke text goes here.",
+  "type": "Italian",
+  "subtype": "One-liner"
+}
+```
+
+IDs are stable once published: gaps are allowed, and existing records are not renumbered. New jokes should use a unique ID greater than the current maximum and must not duplicate an existing joke after differences in capitalization, punctuation, or spacing are ignored.
+
+Check the data and run the tests before opening a pull request:
+
+```sh
+npm run check
+```
 
 ## Contributing
 
-Contributions are welcome! If you have any improvements or suggestions for the Italian Jokes API, feel free to submit a pull request.
+Suggestions and pull requests are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) before adding data; it covers categories, stable IDs, and the duplicate checks. Every pull request and push runs `npm run check` automatically in GitHub Actions.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
-
-## Credits
-
-Built by [Daniel Bliss](https://github.com/d-bliss/italian-jokes-api).
-
-
+[MIT](LICENSE) © Daniel Bliss
